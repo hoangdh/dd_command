@@ -111,7 +111,7 @@ dd if=/dev/sda1 of=/root/sda1.img
 ```
 - Nếu muốn nén ảnh file anh vào bạn có thể sử dụng command sau
 ```
-dd if=/dev/sda1 | grip > /root/sda1.img.gz
+dd if=/dev/sda1 | gzip > /root/sda1.img.gz
 ```
 -Sao lưu dữ liệu từ một phân vùng này đến một phân vùng khác
 ```
