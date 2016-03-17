@@ -153,7 +153,7 @@ dd if=/root/test.doc of=/root/test1.doc conv=ucase
 
 - Chuyển chứ hoa thành chứ thường
 ```
-dd if=/root/test1.doc of=/test2.doc conv=scase,sycn
+dd if=/root/test1.doc of=/test2.doc conv=lcase,sycn
 ```
 <p name="vd4"></p>
 
