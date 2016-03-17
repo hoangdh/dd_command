@@ -39,10 +39,15 @@ Xin chào các bạn. Hôm nay tôi sẽ giới thiệu một command dd trong h
 </p>
 <p name="cuphap">
 	<h3><b>3. Cú pháp và các trường tùy chọn</b></h3><br>
-<p name="cp1"></p>
+<p name="cp1">
 	<h4><b>Cú pháp</b></h4><br>
-	```#dd if=<địa chỉ đầu vào> of=<địa chỉ đầu ra> option```
-
+	#dd if=<địa chỉ đầu vào> of=<địa chỉ đầu ra> option
+	Trong đó:
+	
+<li>if= địa chỉ nguồn của dữ liệu nó sẽ bắt đầu đọc</li>
+<li>of= viết đầu ra của file</li>
+<li>option : các tùy chọn cho câu lệnh</li>
+</p>
 <p name="cp2">
 	<h3><b>1. Mở đầu và khuyến nghị</b></h3><br>
 
