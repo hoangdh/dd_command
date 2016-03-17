@@ -135,6 +135,9 @@ Việc sao lưu lại mbr là việc làm cần thiết đối với hệ thốn
 ```
 dd if=/dev/sda1 of=/root/mbr.txt bs=512 count=1
 ```
+
+<img src="http://www.mediafire.com/convkey/488e/f841i516de79fqxzg.jpg" > </img>
+
 - Phục hồi lại MBR
 ```
 dd if=/root/mbr.txt of=/dev/sda1
@@ -146,7 +149,7 @@ dd if=/root/mbr.txt of=/dev/sda1
 ```
 dd if=/root/test.doc of=/root/test1.doc conv=ucase
 ```
-<img class="image__pic js-image-pic" src="http://i.imgur.com/ihXZb4z.png" alt="" id="screenshot-image">
+<img class="image__pic js-image-pic" src="http://www.mediafire.com/convkey/a72c/7yfo3pxytbj5t97zg.jpg" alt="" id="screenshot-image">
 
 - Chuyển chứ hoa thành chứ thường
 ```
@@ -159,7 +162,7 @@ Tạo ra một file có kích thước 100M
 ```
 dd if=/dev/zero of=/root/file1 bs=100M count=1
 ```
-
+<img class="image__pic js-image-pic" src="http://www.mediafire.com/convkey/c6a9/ha3jf4zkdkk19ifzg.jpg" alt="" id="screenshot-image">
 <p name="thucte"></p>
 
 #### 5. Các tình huống áp dụng trong thực tế
@@ -172,14 +175,11 @@ Các ví dụ tôi vừa nêu trên đều sử dụng rất nhiều trong thự
 dd if=/dev/zero of=/root/swap bs=1024M count=1
 ```
 
-<img class="image__pic js-image-pic" src="http://i.imgur.com/ULIQkPh.png" alt="" id="screenshot-image">
 
   - Gán quyền cho nó chỉ root mới vào xem được
 ```
 chmod 600 /root/swap
 ```
-<img class="image__pic js-image-pic" src="http://i.imgur.com/nllxHrl.png" alt="" id="screenshot-image">
-
 - Chỉ cho đến vùng swap
 ```
 mkswap /root/swap
@@ -187,17 +187,13 @@ mkswap /root/swap
 ```
 swapon /root/swap 
 ```
-<img class="image__pic js-image-pic" src="http://i.imgur.com/f6taOEY.png" alt="" id="screenshot-image">
 
 Oki nào bây giờ kiểm tra lại xem thành công chưa. Sử dụng lệnh
 ```
 swapon -s
 ```
-<img class="image__pic js-image-pic" src="http://i.imgur.com/Rw4Zg2o.png" alt="" id="screenshot-image">
  
  Lúc này tổng dung lượng phân vùng swap sẽ là 2G ( do trước đó tôi cài đặt cho phân vùng swap là 1G trước rồi )
- 
- <img class="image__pic js-image-pic" src="http://i.imgur.com/Wb2mdPV.png" alt="" id="screenshot-image">
  
  Nếu bạn muốn tạo vùng swap không bị mất khi reboot lại máy. Bạn vào file này rồi chỉnh sửa như sau:
  ```
@@ -205,6 +201,8 @@ swapon -s
  rồi chỉnh sửa:
  /root/swap                 swap                    swap                defaults        0  0
  ```
+ <img class="image__pic js-image-pic" src="http://www.mediafire.com/convkey/849a/hhb2i7zrke3z9y3zg.jpg" alt="" id="screenshot-image">
+ 
  
  VD2: Ngoài ra bạn còn có thể kết hợp với câu lênh crontab để có thể lâp lịch sao chép dữ liêu ổ cứng của bạn theo định kì
 Đầu tiên vào một file sh để chạy
