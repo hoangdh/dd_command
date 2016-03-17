@@ -187,11 +187,6 @@ mkswap /root/swap
 ```
 swapon /root/swap 
 ```
-
-Oki nào bây giờ kiểm tra lại xem thành công chưa. Sử dụng lệnh
-```
-swapon -s
-```
  
  Lúc này tổng dung lượng phân vùng swap sẽ là 2G ( do trước đó tôi cài đặt cho phân vùng swap là 1G trước rồi )
  
