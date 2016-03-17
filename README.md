@@ -39,11 +39,10 @@ Xin chào các bạn. Hôm nay tôi sẽ giới thiệu một command dd trong h
 </p>
 <p name="cuphap">
 	<h3><b>3. Cú pháp và các trường tùy chọn</b></h3><br>
-<p name="cp1">
+<p name="cp1"></p>
 	<h4><b>Cú pháp</b></h4><br>
+	```#dd if=<địa chỉ đầu vào> of=<địa chỉ đầu ra> option```
 
-Xin chào các bạn. Hôm nay tôi sẽ giới thiệu một command dd trong hệ thống Linux. Để có thể hiểu hết được ý nghĩa của câu lệnh này và các tùy chọn của câu lệnh trước tiên bạn cần phải có kiến thức và cách tổ chức lưu trư dữ liệu trong ô cứng, hiều về các sector,tracks, Cylinders,.. các thuật ngũ liên quan đến ổ cứng, và kiến thức về MBR...<br>
-</p>
 <p name="cp2">
 	<h3><b>1. Mở đầu và khuyến nghị</b></h3><br>
 
