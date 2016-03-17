@@ -42,6 +42,7 @@ Xin chào các bạn. Hôm nay tôi sẽ giới thiệu một command dd trong h
 <p name="cp1">
 	<h4><b>Cú pháp</b></h4><br>
 	#dd if=<địa chỉ đầu vào> of=<địa chỉ đầu ra> option
+	
 	Trong đó:
 	
 <li>if= địa chỉ nguồn của dữ liệu nó sẽ bắt đầu đọc</li>
@@ -49,11 +50,22 @@ Xin chào các bạn. Hôm nay tôi sẽ giới thiệu một command dd trong h
 <li>option : các tùy chọn cho câu lệnh</li>
 </p>
 <p name="cp2">
-	<h3><b>1. Mở đầu và khuyến nghị</b></h3><br>
+	<h3><b> Các tùy chọn</b></h3><br>
+</p>
+</p>
 
-Xin chào các bạn. Hôm nay tôi sẽ giới thiệu một command dd trong hệ thống Linux. Để có thể hiểu hết được ý nghĩa của câu lệnh này và các tùy chọn của câu lệnh trước tiên bạn cần phải có kiến thức và cách tổ chức lưu trư dữ liệu trong ô cứng, hiều về các sector,tracks, Cylinders,.. các thuật ngũ liên quan đến ổ cứng, và kiến thức về MBR...<br>
-</p>
-</p>
+Tùy chọn | Ý nghĩa |
+|---------|---------|
+|bs=Bytes |Quá trình đọc (ghi) bao nhiêu byte một lần đọc (ghi) |
+|cbs=Bytes|Chuyển đổi bao nhiêu byte một lần |
+|count=Blocks | thực hiện bao nhiêu Block trong quá trình thực thi câu lệnh |
+|if | Chỉ đường dẫn đọc đầu vào |
+|of | Chỉ đường dẫn ghi đầu ra|
+|ibs=bytes | Chỉ ra số byte một lần đọc |
+|obs=bytes | Chỉ ra số byte một lần ghi |
+|skip=blocks | Bỏ qua bao nhiêu block đầu vào |
+|conv=Convs | Chỉ ra tác vụ cụ thể của câu lệnh, các tùy chọn được ghi dưới bảng sau đây |
+
 
 <p name="khainiem"></p>
 <p name="cuphap"></p>
