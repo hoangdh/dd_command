@@ -80,7 +80,7 @@ Tùy chọn | Ý nghĩa |
 
 
 
-*Lưu ý:* Khi bạn định dạng số lượng byte mỗi lần đọc. Mặc định nó được tính theo đơn vị là kb. Bạn có thể thêm một số trường sau để báo định dạng khác:
+*Lưu ý:* Khi bạn định dạng số lượng byte mỗi lần đọc. Mặc định nó được tính theo đơn vị là kB. Bạn có thể thêm một số trường sau để báo định dạng khác:
 
 - c = 1 byte
 - w = 2 byte
@@ -130,7 +130,7 @@ dd if=/dev/cdrom of=/root/cdrom.img conv=noerror
 <p name="vd2"></p>
 
 ###### b.Sao lưu phục hồi MBR
-Việc sao lưu lại mbr là việc làm cần thiết đối với hệ thống linux. nó đề phòng cho việc khi virut có thể nhảy được hẳn vào vùng MBR. Lúc bày bất kì một phần mềm diệt virut nào cũng không diệt được con virut này. Cách hay nhất là cài đặt lại mbr và lúc đó việc sao chép MBR lúc trước khi nhiễm sẽ phát huy tác dụng:
+Việc sao lưu lại MBR là việc làm cần thiết đối với hệ thống linux. nó đề phòng cho việc khi virus có thể nhảy được hẳn vào vùng MBR. Lúc bày bất kì một phần mềm diệt virus nào cũng không diệt được con virus này. Cách hay nhất là cài đặt lại MBR và lúc đó việc sao chép MBR lúc trước khi nhiễm sẽ phát huy tác dụng:
 - Sao chép MBR
 ```
 dd if=/dev/sda1 of=/root/mbr.txt bs=512 count=1
