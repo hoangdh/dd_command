@@ -23,7 +23,7 @@
 <p name="modau">
 	<h3><b>1. Mở đầu và khuyến nghị</b></h3><br>
 
-Xin chào các bạn. Hôm nay tôi sẽ giới thiệu một command dd trong hệ thống Linux. Để có thể hiểu hết được ý nghĩa của câu lệnh này và các tùy chọn của câu lệnh trước tiên bạn cần phải có kiến thức và cách tổ chức lưu trư dữ liệu trong ô cứng, hiều về các sector,tracks, Cylinders,.. các th=uật ngũ liên quan đến ổ cứng, và kiến thức về MBR...<br>
+Xin chào các bạn. Hôm nay tôi sẽ giới thiệu một command dd trong hệ thống Linux. Để có thể hiểu hết được ý nghĩa của câu lệnh này và các tùy chọn của câu lệnh trước tiên bạn cần phải có kiến thức và cách tổ chức lưu trư dữ liệu trong ô cứng, hiều về các sector,tracks, Cylinders,.. các thuận ngữ liên quan đến ổ cứng, và kiến thức về MBR...<br>
 </p>
 <p name="khainiem">
 	<h3><b>2. Khái niệm và ứng dụng của câu lệnh</b></h3><br>
@@ -41,6 +41,7 @@ Xin chào các bạn. Hôm nay tôi sẽ giới thiệu một command dd trong h
 	<h3><b>3. Cú pháp và các trường tùy chọn</b></h3><br>
 <p name="cp1">
 	<h4><b>Cú pháp</b></h4><br>
+	
 	#dd if=<địa chỉ đầu vào> of=<địa chỉ đầu ra> option
 	
 	Trong đó:
