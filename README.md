@@ -55,7 +55,7 @@ Xin chào các bạn. Hôm nay tôi sẽ giới thiệu một command dd trong h
 </p>
 
 Tùy chọn | Ý nghĩa |
-|---------|---------|
+|-----|---------|
 |bs=Bytes |Quá trình đọc (ghi) bao nhiêu byte một lần đọc (ghi) |
 |cbs=Bytes|Chuyển đổi bao nhiêu byte một lần |
 |count=Blocks | thực hiện bao nhiêu Block trong quá trình thực thi câu lệnh |
